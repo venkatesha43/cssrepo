@@ -10,3 +10,19 @@ a {
     font-weight: bold;
     line-height: 25px;
 }
+
+
+a {
+    visibility:hidden;
+    opacity:0;        
+    transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+    transition: all 0.4s ease;
+    transition-delay:  1s;
+
+}
+a > a {
+    visibility:visible;
+    opacity:1;
+    transition: all 0.3s ease;
+    transition-delay:  0s;        
+}   
