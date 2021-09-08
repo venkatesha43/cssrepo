@@ -2,5 +2,6 @@
   font-family: "Times New Roman", Times, serif;
 }
 .boxed {
-  border: 1px solid green ;
+   width: 50%;
+  border: 4px solid red ;
 }
