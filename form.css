@@ -1,8 +1,4 @@
-table {
-  border-collapse: separate;
-  border-spacing: 50px 0;
-}
-
-td {
-  padding: 10px 0;
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
 }
