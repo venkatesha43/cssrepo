@@ -1,7 +1,11 @@
 .p1 {
   font-family: "Times New Roman", Times, serif;
 }
+#block_container
+{
+    display: flex;
+    justify-content: center;
+}
 .boxed {
-   width: 50%;
   border: 4px solid red ;
 }
